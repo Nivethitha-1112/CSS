@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+#product-overview {
+    background-color: rgb(216, 253, 253);
+}
+#product-overview h1{
+    color:brown;
+    font-family: Sofia;
+    font-size: 20px;
+}
+.section-title {
+    color:blue;
+    font-family: inherit;
+}
+ /*h1{
+    font-family: serif;
+} */
