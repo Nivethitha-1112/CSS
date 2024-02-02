@@ -1,8 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    font-family: sans-serif;
+    font-family: Sofia;
+    /*margin: 2px 3px 5px 4px;*/
 }
 #product-overview {
-    background-color: rgb(216, 253, 253);
+    background: url(bg.jpg) ;
+    background-repeat: no-repeat;
+    padding: 20px;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;*/
+    border: 2px black solid;
+    width: 700px;
+    height: 400px;
 }
 #product-overview h1{
     color:brown;
@@ -16,3 +30,60 @@ body{
  /*h1{
     font-family: serif;
 } */
+
+.main-header{
+    width: 100%;
+    background: rgb(203, 255, 255);
+    padding: 5px 20px;
+}
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand{
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.main-nav-items{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 99px);
+}
+.main-navs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav{
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-nav a{
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+    padding: 3px 0;
+}
+.main-nav a:hover,
+.main-nav a:active {
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid white;
+}
+/*p::first-letter{
+    color: red;
+    font-size: 25px;
+}*/
+
+.main-nav__item--cta a{
+    color:rgb(7, 7, 7);
+    background-color: bisque;
+    padding: 4px 16px;
+    border-radius: 5px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color:red;
+    background-color: white;
+}
