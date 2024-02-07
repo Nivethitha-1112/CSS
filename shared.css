@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+ html{
+    margin: 30px;
+ }
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -26,6 +28,10 @@ button:active {
     width: 100%;
     background:  #f1f0f0;
     padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .main-header > div{
     display: inline-block;
