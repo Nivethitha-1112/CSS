@@ -41,7 +41,14 @@ button:active {
     color:#07968f;
     text-decoration: none;
     font-weight: bold;
-    
+    font-size: 22px;
+   /*height: 22px;*/
+    width: 25px;
+    display: inline-block;
+}
+.main-header__brand img{
+    height: 32px;
+   /*width: 100%;*/
 }
 .main-nav-items{
     display: inline-block;
