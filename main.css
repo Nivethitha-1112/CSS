@@ -24,9 +24,13 @@ body{
     position: relative;
 }
 #product-overview h1{
-    color:#a52a2a;
-    font-family: Roboto;
-    font-size: 20px;
+    color:rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    margin-top: 180px;
 }
 .section-title {
     color:#02d4db;
