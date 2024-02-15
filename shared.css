@@ -38,6 +38,13 @@ main{
     background-color: #00f7ff;
     color:#000000;
 }
+
+.button[disabled] {
+    cursor: not-allowed;
+    border: #808080;
+    background: #ccc;
+    text-decoration-color: grey;
+}
 .main-header{
     width: 100%;
     background:  #f1f0f0;
